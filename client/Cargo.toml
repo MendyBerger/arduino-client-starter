@@ -1,0 +1,9 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serialport = "4.0.1"
+bincode = { version = "2.0.0-alpha.1" }
+shared = { path = "../shared" }
